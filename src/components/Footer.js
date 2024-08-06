@@ -5,6 +5,11 @@ function Footer() {
     return (
         <footer>
             <p>&copy; 2024 My React App</p>
+            <div>
+                <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">Twitter</a>
+                <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a>
+                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a>
+            </div>
         </footer>
     );
 }
